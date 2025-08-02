@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.use(cors({
-  origin :'http://localhost:5173',
+  origin :'https://intershala-frontend.onrender.com',
   methods: ["GET", "POST"]
 }));
 
