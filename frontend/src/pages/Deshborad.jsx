@@ -6,7 +6,7 @@ function Dashboard() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    axios.get(`${import.meta.env.VITE_API}/user`).then((res) => {
+    axios.get(`${import.meta.env.VITE_API}/api/user`).then((res) => {
       setUser(res.data);
     });
   }, []);
