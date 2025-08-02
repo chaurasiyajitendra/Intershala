@@ -32,3 +32,21 @@ It allows interns to **view their details, referral code, total donations**, and
 - **Backend:** Node.js, Express.js, CORS
 - **Data Storage:** Static JSON file (mock data)
 
+## 🚀 Setup & Installation
+
+### **1️⃣ Clone Repository**
+- git clone https://github.com/yourusername/intern-dashboard.git
+- cd intern-dashboard
+
+## **2️⃣ Backend Setup**
+
+- cd backend
+- npm install
+- node app.js
+- Server will start at http://localhost:3000
+
+## **3️⃣ Frontend Setup**
+-  cd frontend
+- npm install
+- npm run dev
+- Frontend will start at http://localhost:5173
