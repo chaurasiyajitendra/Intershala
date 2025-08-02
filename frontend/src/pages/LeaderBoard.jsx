@@ -5,7 +5,7 @@ function Leaderboard() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get(`${import.meta.env.VITE_API}/leaderboard`).then((res) => {
+    axios.get(`${import.meta.env.VITE_API}/api/leaderboard`).then((res) => {
       setData(res.data);
     });
   }, []);
